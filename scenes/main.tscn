@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://bgsk7ay05qerb"]
 
 [ext_resource type="Script" uid="uid://nxfb4h55y3ev" path="res://scripts/player.gd" id="1_1bvp3"]
-[ext_resource type="Texture2D" uid="uid://d0tdhoikylt4a" path="res://icon.svg" id="1_h2yge"]
 [ext_resource type="Script" uid="uid://ckgbbufvqejp8" path="res://scripts/stopwatch.gd" id="1_o6xl0"]
 [ext_resource type="Texture2D" uid="uid://cgwjvkitv7y0q" path="res://assets/ladder.png" id="3_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://cesaf1coart6o" path="res://assets/better-custom-flooe.png" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cp8mvd7q1ckly" path="res://scenes/the-sprite.png" id="3_tipki"]
 [ext_resource type="Script" uid="uid://ditq5ho43u4gv" path="res://scripts/ladder.gd" id="4_ladder"]
 [ext_resource type="Script" uid="uid://b3eu4x3sm3rwy" path="res://scripts/death_zone.gd" id="6_7mycd"]
 [ext_resource type="Script" uid="uid://d2jl5pdvufox5" path="res://scripts/finish.gd" id="8_tipki"]
@@ -579,9 +579,9 @@ script = ExtResource("1_o6xl0")
 script = ExtResource("1_1bvp3")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1524337904]
-position = Vector2(0, 101)
-scale = Vector2(1, 2.578125)
-texture = ExtResource("1_h2yge")
+position = Vector2(0.5, 101.5)
+scale = Vector2(3.9687498, 3.9878051)
+texture = ExtResource("3_tipki")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=294250462]
 position = Vector2(-0.5, 101)
