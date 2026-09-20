@@ -1,11 +1,13 @@
-[gd_scene format=4 uid="uid://cvsag27ic8pma"]
+[gd_scene format=4 uid="uid://bgsk7ay05qerb"]
 
 [ext_resource type="Script" uid="uid://nxfb4h55y3ev" path="res://scripts/player.gd" id="1_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://d0tdhoikylt4a" path="res://icon.svg" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://ckgbbufvqejp8" path="res://scripts/stopwatch.gd" id="1_o6xl0"]
 [ext_resource type="Texture2D" uid="uid://cgwjvkitv7y0q" path="res://assets/ladder.png" id="3_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://cesaf1coart6o" path="res://assets/better-custom-flooe.png" id="3_h2yge"]
 [ext_resource type="Script" uid="uid://ditq5ho43u4gv" path="res://scripts/ladder.gd" id="4_ladder"]
 [ext_resource type="Script" uid="uid://b3eu4x3sm3rwy" path="res://scripts/death_zone.gd" id="6_7mycd"]
+[ext_resource type="Script" uid="uid://d2jl5pdvufox5" path="res://scripts/finish.gd" id="8_tipki"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
 size = Vector2(127, 328)
@@ -567,7 +569,11 @@ sources/0 = SubResource("TileSetAtlasSource_272bh")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcnqv"]
 size = Vector2(11115, 998)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7numd"]
+size = Vector2(634, 1750)
+
 [node name="Node" type="Node" unique_id=1087481539]
+script = ExtResource("1_o6xl0")
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1979321448]
 script = ExtResource("1_1bvp3")
@@ -585,6 +591,12 @@ shape = SubResource("RectangleShape2D_g4v7s")
 position = Vector2(-7, 124)
 position_smoothing_enabled = true
 position_smoothing_speed = 6.0
+
+[node name="Label" type="Label" parent="Player" unique_id=658051409]
+offset_left = -63.0
+offset_top = -117.0
+offset_right = 58.0
+offset_bottom = -68.0
 
 [node name="Ladders" type="Node" parent="." unique_id=1574073937]
 
@@ -636,3 +648,11 @@ script = ExtResource("6_7mycd")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DeathZone" unique_id=1959708552]
 position = Vector2(3024.5, 1769)
 shape = SubResource("RectangleShape2D_fcnqv")
+
+[node name="Finish" type="Area2D" parent="." unique_id=1996145304]
+position = Vector2(-63, -117)
+script = ExtResource("8_tipki")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Finish" unique_id=378817922]
+position = Vector2(4080, -3162)
+shape = SubResource("RectangleShape2D_7numd")
