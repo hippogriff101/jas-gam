@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://bgsk7ay05qerb"]
 
-[ext_resource type="Script" uid="uid://nxfb4h55y3ev" path="res://player.gd" id="1_1bvp3"]
+[ext_resource type="Script" uid="uid://nxfb4h55y3ev" path="res://scripts/player.gd" id="1_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://d0tdhoikylt4a" path="res://icon.svg" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cgwjvkitv7y0q" path="res://assets/ladder.png" id="3_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://cesaf1coart6o" path="res://assets/better-custom-flooe.png" id="3_h2yge"]
-[ext_resource type="Script" uid="uid://ditq5ho43u4gv" path="res://ladder.gd" id="4_ladder"]
+[ext_resource type="Script" uid="uid://ditq5ho43u4gv" path="res://scripts/ladder.gd" id="4_ladder"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
 size = Vector2(127, 328)
