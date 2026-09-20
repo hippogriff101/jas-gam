@@ -24,7 +24,7 @@ Or, if you hate yourself, clone the repo and import it into the latest version o
 
 - hug the ladder sprite to ride it
 
-you might have to jump into the abyss and hope for the best
+you might have to jump into the abyss and hope for the best - not the most intuitive ig, womp womp
 
 if you get it faster than 20 seconds dm me on hc slack with a screenshot for a dog photo *
 
@@ -54,6 +54,7 @@ me...
 
 Copyright (c) 2026 Freddie Yershon
 
-[MIT LICENSE(LICENSE)
+[MIT LICENSE](LICENSE)
 
-_* comment from above: only people aged 13 - 18 can join Hack Club slack to redeem the dog pics - im @freddie btw_
+## finishing notes
+_*only people aged 13 - 18 can join Hack Club slack to redeem the dog pics - im @freddie btw_
