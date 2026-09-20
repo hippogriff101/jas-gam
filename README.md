@@ -38,7 +38,7 @@ Claude Code was sparingly used for minimal debuging and assistance with GD Scrip
 
 - The [floor or platform](assets\better-custom-flooe.png) design was made by [@Dragaroni](https://hackclub.enterprise.slack.com/team/U0A9N62CZ7U)
 
-- The ladder and other random (and really bad) pixel art was made by me
+- The ladder, sprite and other random (and really bad) pixel art was made by me
 
 - The digit's 1 through 9 as well as the `bg.png` are from [NumberJacks](https://en.wikipedia.org/wiki/Numberjacks) show by the BBC
 
