@@ -33,6 +33,7 @@ if you get it faster than 20 seconds dm me on hc slack with a screenshot for a d
 ### AI Tranparency
 
 Claude Code was sparingly used for minimal debuging and assistance with GD Script stuff i don't 100% get. 
+_time spent using claude was tracked with hacaktime (removed from submitted hours on fillout form)_
 
 ### Art
 
