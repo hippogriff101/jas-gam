@@ -10,7 +10,7 @@ As the title suggests it is just another simple godot game. My plans were to do 
 
 ## Why you make this?
 
-I'm hoping to org [Haven](https://haven.hackclub.com) London, one of over 200 game jams happening all over the world this November by [Hack Club](https://hackclub.com)! While I'm not a confirmed event orginiser yet, I've still made this game of three days in my limited free time!
+I'm hoping to org [Haven](https://haven.hackclub.com) London, one of over 200 game jams happening all over the world this November by [Hack Club](https://hackclub.com)! While I'm not a confirmed event orginiser yet, I've still made this game ofor [Haven Jumpstart](https://haven.jumpstart.hackclub.com/)!
 
 ## How do I play?
 
@@ -32,7 +32,7 @@ if you get it faster than 20 seconds dm me on hc slack with a screenshot for a d
 
 ### AI Tranparency
 
-Claude Code was sparingly used for minimal debuging and assistance with GD Script practices. 
+Claude Code was sparingly used for minimal debuging and assistance with GD Script stuff i don't 100% get. 
 
 ### Art
 
