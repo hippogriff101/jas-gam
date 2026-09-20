@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="haven-jumpstart-num"
-run/main_scene="uid://bgsk7ay05qerb"
+run/main_scene="uid://bqcae6hu1508a"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bqcae6hu1508a"]
+
+[ext_resource type="Script" uid="uid://vt5tp5sfekpx" path="res://scenes/titles.gd" id="1_7kpeh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_yf5fn"]
+font_size = 100
+
+[node name="Node" type="Node" unique_id=2064402429]
+script = ExtResource("1_7kpeh")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2079724385]
+position = Vector2(583, 331)
+
+[node name="Label" type="Label" parent="." unique_id=1794618844]
+offset_left = 55.0
+offset_top = 71.0
+offset_right = 1123.0
+offset_bottom = 209.0
+text = "Welcome to MY game!"
+label_settings = SubResource("LabelSettings_yf5fn")
+
+[node name="Button" type="Button" parent="." unique_id=963652719]
+offset_left = 368.0
+offset_top = 287.0
+offset_right = 714.0
+offset_bottom = 408.0
+text = "Start Game!"
